@@ -1,0 +1,80 @@
+@import 'colors'
+@import 'grid'
+  
+.App 
+  text-align: center 
+  background: $color-dark-secondary
+  display: flex
+  flex-direction: column
+  flex-wrap: wrap
+  justify-content: flex-start
+  align-content: center
+
+
+.App_header 
+  color: white
+  background: $color-dark-principal
+  padding: 2.5rem 5.2rem
+    // height: 100%
+
+*
+    color: $color-light-white
+    margin: 0
+    padding: 0
+    font-family: 'Roboto', sans-serif
+    font-weight: regular
+
+#logo
+    width: 15rem
+
+#menu
+    display: flex
+    flex-direction: column
+    align-items: center
+    font-weight: bold
+    font-size: 1.2rem
+    a
+        background: -webkit-linear-gradient($color-orange, $color-red)
+        -webkit-background-clip: text
+        -webkit-text-fill-color: transparent
+        text-decoration: none
+
+h1, h2, .button-container
+    text-align: center
+    margin: .5rem 0
+
+h1
+    font-size: 4.5rem
+    background: -webkit-linear-gradient($color-orange, $color-red)
+    -webkit-background-clip: text
+    -webkit-text-fill-color: transparent
+
+h2
+    font-size: 2rem
+    font-weight: 400
+
+.button
+    background: $color-gradient-orange-to-red
+    font-weight: 700
+    font-size: 1rem
+    padding: 15px 25px
+    border-radius: 2.5rem
+    border: solid 3px $color-dark-principal
+    cursor: pointer
+    transition: all .9s
+    &:hover
+        background: $color-light-white
+        color: $color-orange
+        border: solid 3px $color-orange
+        & > i
+            color: $color-orange
+
+::-webkit-scrollbar 
+    width: 0.3rem
+    height: 0.3rem
+    margin-right: 5px
+    border-radius: 1rem
+
+::-webkit-scrollbar-thumb 
+    background: $color-gradient-orange-to-red
+    border-radius: 1rem
