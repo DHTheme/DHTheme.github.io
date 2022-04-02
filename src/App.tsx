@@ -13,10 +13,10 @@ function App() {
       <header className={style.App_header}>
         <img src={imageLogo} alt="logo" id={style.logo} />
         <nav id={style.menu}>
-            <a href="./index.html">INÍCIO</a><br/>
-            <a href="./details.html">DETALHES</a><br/>
-            <a href="./applications.html">APLICAÇÕES</a><br/>
-            <a href="./colaborations.html">COLABORAÇÕES</a><br/>
+            <a href="./index">INÍCIO</a><br/>
+            <a href="./details">DETALHES</a><br/>
+            <a href="./applications">APLICAÇÕES</a><br/>
+            <a href="./colaborations">COLABORAÇÕES</a><br/>
         </nav>
       </header>
 

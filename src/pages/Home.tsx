@@ -1,3 +1,5 @@
+import '../styles/buttons/buttons.sass'
+
 export function Home () {
     return (
         <article>
